@@ -1,0 +1,91 @@
+/* glue: 0.11.1 hash: 4a1afc1ed7 */
+.icon--germany:hover,.icon--germany,.icon--united-kingdom:hover,.icon--united-kingdom,.icon--netherlands:hover,.icon--netherlands,.icon--france:hover,.icon--france {
+  background-image: url('../images/generated/flags.png');
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+}
+
+.icon--germany:hover{
+  background-position: 0 0;
+  height: 37px;
+  width: 46px;
+}
+
+.icon--germany{
+  background-position: -46px 0;
+  height: 37px;
+  width: 46px;
+}
+
+.icon--united-kingdom:hover{
+  background-position: 0 -37px;
+  height: 37px;
+  width: 45px;
+}
+
+.icon--united-kingdom{
+  background-position: -45px -37px;
+  height: 37px;
+  width: 45px;
+}
+
+.icon--netherlands:hover{
+  background-position: -91px 0;
+  height: 37px;
+  width: 45px;
+}
+
+.icon--netherlands{
+  background-position: -91px -37px;
+  height: 37px;
+  width: 45px;
+}
+
+.icon--france:hover{
+  background-position: 0 -74px;
+  height: 37px;
+  width: 45px;
+}
+
+.icon--france{
+  background-position: -45px -74px;
+  height: 37px;
+  width: 45px;
+}
+
+  
+  @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0),screen and (-o-min-device-piratio: ),screen and (min-device-pixel-ratio: 1.0){
+    .icon--germany:hover, 
+    .icon--germany, 
+    .icon--united-kingdom:hover, 
+    .icon--united-kingdom, 
+    .icon--netherlands:hover, 
+    .icon--netherlands, 
+    .icon--france:hover, 
+    .icon--france
+    {
+      background-image: url('../images/generated/flags.png');
+      -webkit-background-size: 136px 111px;
+      -moz-background-size: 136px 111px;
+      background-size: 136px 111px;
+    }
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0),screen and (-o-min-device-piratio: ),screen and (min-device-pixel-ratio: 2.0){
+    .icon--germany:hover, 
+    .icon--germany, 
+    .icon--united-kingdom:hover, 
+    .icon--united-kingdom, 
+    .icon--netherlands:hover, 
+    .icon--netherlands, 
+    .icon--france:hover, 
+    .icon--france
+    {
+      background-image: url('../images/generated/flags@2x.png');
+      -webkit-background-size: 136px 111px;
+      -moz-background-size: 136px 111px;
+      background-size: 136px 111px;
+    }
+  }
+  

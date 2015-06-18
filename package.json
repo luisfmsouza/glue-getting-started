@@ -1,0 +1,28 @@
+{
+  "name": "glue-getting-started",
+  "version": "1.0.0",
+  "description": "Getting started with Glue",
+  "keywords": [
+    "grunt",
+    "package",
+    "json",
+    "gruntfile"
+  ],
+  "bugs": {
+    "url": "https://github.com/luisfmsouza/glue-getting-started/issues"
+  },
+  "homepage": "https://github.com/luisfmsouza/glue-getting-started",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "time-grunt": "~1.0.0",
+    "load-grunt-config": "~0.17.1",
+    "grunt-sprite-glue": ">=0",
+    "grunt-contrib-watch": "~0.6.1",
+    "node-sass": "~3.2.0",
+    "grunt-sass": "~1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

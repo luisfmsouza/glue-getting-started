@@ -1,0 +1,32 @@
+/* glue: 0.11.1 hash: b89522ec7e */
+.icon-envelope:hover,.icon-envelope {
+  background-image: url('../images/generated/icons.png');
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+}
+
+.icon-envelope:hover{
+  background-position: 0 0;
+  height: 55px;
+  width: 64px;
+}
+
+.icon-envelope{
+  background-position: -64px 0;
+  height: 55px;
+  width: 64px;
+}
+
+  
+  @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0),screen and (-o-min-device-piratio: ),screen and (min-device-pixel-ratio: 1.0){
+    .icon-envelope:hover, 
+    .icon-envelope
+    {
+      background-image: url('../images/generated/icons.png');
+      -webkit-background-size: 128px 55px;
+      -moz-background-size: 128px 55px;
+      background-size: 128px 55px;
+    }
+  }
+  

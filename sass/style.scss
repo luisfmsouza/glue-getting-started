@@ -1,0 +1,25 @@
+@mixin icons-sprite($class) {
+  @extend .#{$class}
+}
+
+@import 'flags';
+@import 'icons';
+
+.envelope {
+  background-color: grey;
+  @include icons-sprite(icon-envelope);
+}
+
+.envelope-extend {
+  background-color: green;
+  @extend .icon-envelope;
+}
+
+.envelope-before {
+  &:before{
+    background-color: blue;
+    content: "";
+    @include icons-sprite(icon-envelope);
+  }
+}
+
